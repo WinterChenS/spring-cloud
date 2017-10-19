@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: config-server-git
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://git.oschina.net/winter_chen/config-repo/
+server:
+  port: 1201
